@@ -1,5 +1,3 @@
-// userRoutes.js
-
 import { Router } from "express";
 import { createUser, getAllUsers } from "../controllers/userController"; // Import controller functions
 
@@ -11,4 +9,4 @@ router.post("/", createUser);
 // GET ALL Users
 router.get("/", getAllUsers);
 
-export default router; // Export the router using ES6 syntax
+export default router; 
